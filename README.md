@@ -1,0 +1,3 @@
+# MongoDB $in operator with array of objects
+This example demonstrates an incorrect usage of the `$in` operator in MongoDB when querying with an array of objects.  The `$in` operator works correctly only when used with an array of scalar values. Using it with an array of objects won't produce the intended results.
+The solution shows how to correctly query using the `$or` operator instead for this scenario.
